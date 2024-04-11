@@ -4,16 +4,13 @@ let start = document.getElementById("start");
 let stop = document.getElementById("stop");
 let reset = document.getElementById("reset");
 let timer = null;
-start.addEventListener("click", watchstart);
-stop.addEventListener("click", watchstop);
-reset.addEventListener("click", watchreset);
 
 function stopwatch() {
   seconds++;
-  if (seconds == 60) {
+  if (seconds === 60) {
     seconds = 0;
     minutes++;
-    if (minutes == 60) {
+    if (minutes === 60) {
       minutes = 0;
       hours++;
     }
@@ -27,6 +24,7 @@ function watchstart() {
   if (timer !== null) {
     clearInterval(timer);
   }
+  stopwatch();
   timer = setInterval(stopwatch, 1000);
 }
 function watchstop() {
@@ -37,3 +35,9 @@ function watchreset() {
   clearInterval(timer);
   displaytime.innerHTML = "00:00:00";
 }
+
+start.addEventListener("click", () => {
+  watchstart();
+});
+stop.addEventListener("click", watchstop);
+reset.addEventListener("click", watchreset);
