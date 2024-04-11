@@ -1,117 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
-
 h1 {
-  font-size: 4rem;
-  font-weight: bold;
+  width: 100px;
 }
 body {
-  font-family: "Bungee Spice", sans-serif;
-  background-image: linear-gradient(
-    to right top,
-    #d16ba5,
-    #c777b9,
-    #ba83ca,
-    #aa8fd8,
-    #9a9ae1,
-    #8aa7ec,
-    #79b3f4,
-    #69bff8,
-    #52cffe,
-    #41dfff,
-    #46eefa,
-    #5ffbf1
-  );
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.btn-container {
-  display: flex;
-  flex-direction: row;
-  gap: 0.6rem;
+  background-color: rgb(8, 150, 150);
 }
 #start {
-  background-image: linear-gradient(
-    to right top,
-    #d16ba5,
-    #c777b9,
-    #ba83ca,
-    #aa8fd8,
-    #9a9ae1,
-    #8aa7ec,
-    #79b3f4,
-    #69bff8,
-    #52cffe,
-    #41dfff,
-    #46eefa,
-    #5ffbf1
-  );
-  border-radius: 2rem;
-  border: none;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  font-size: 1.2rem;
-  padding: 3% 4%;
-  -webkit-border-radius: 2rem;
-  -moz-border-radius: 2rem;
-  font-weight: bold;
-  -ms-border-radius: 2rem;
-  -o-border-radius: 2rem;
+  background-color: burlywood;
 }
 #stop {
-  background-image: linear-gradient(
-    to right top,
-    #d16ba5,
-    #c777b9,
-    #ba83ca,
-    #aa8fd8,
-    #9a9ae1,
-    #8aa7ec,
-    #79b3f4,
-    #69bff8,
-    #52cffe,
-    #41dfff,
-    #46eefa,
-    #5ffbf1
-  );
-  border-radius: 2rem;
-  border: none;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  font-size: 1.2rem;
-  font-weight: bold;
-  padding: 3% 4%;
+  background-color: burlywood;
 }
 #reset {
-  background-image: linear-gradient(
-    to right top,
-    #d16ba5,
-    #c777b9,
-    #ba83ca,
-    #aa8fd8,
-    #9a9ae1,
-    #8aa7ec,
-    #79b3f4,
-    #69bff8,
-    #52cffe,
-    #41dfff,
-    #46eefa,
-    #5ffbf1
-  );
-  border-radius: 2rem;
-  border: none;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  font-weight: bold;
-  font-size: 1.2rem;
-  padding: 3% 4%;
+  background-color: burlywood;
 }
